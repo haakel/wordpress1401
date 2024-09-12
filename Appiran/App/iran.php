@@ -103,11 +103,11 @@ function deleteProvince($province_id){
 // $data = getCities(['province_id' => 23]);
 // $data = deleteProvince(34);
 // $data = changeProvinceName(34,"سون لرن");
-$data = getProvinces();
+//$data = getProvinces();
 // $data = deleteCity(443);
 // $data = changeCityName(445,"لقمان شهر");
 // $data = getCities(['province_id' => 1]);
-$data = json_encode($data);
-echo "<pre>";
-print_r($data);
-echo "<pre>";
+//$data = json_encode($data);
+//echo "<pre>";
+//print_r($data);
+//echo "<pre>";
